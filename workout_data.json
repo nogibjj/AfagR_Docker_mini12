@@ -1,0 +1,72 @@
+{
+    "arms": [
+        "Bicep Curls - 3 sets of 12 reps",
+        "Tricep Dips - 3 sets of 15 reps",
+        "Hammer Curls - 3 sets of 10 reps",
+        "Overhead Tricep Extension - 3 sets of 12 reps",
+        "Concentration Curls - 3 sets of 10 reps"
+    ],
+    "legs": [
+        "Squats - 4 sets of 12 reps",
+        "Lunges - 3 sets of 15 reps per leg",
+        "Deadlifts - 3 sets of 10 reps",
+        "Leg Press - 3 sets of 10 reps",
+        "Step-Ups - 3 sets of 12 reps per leg"
+    ],
+    "chest": [
+        "Push-Ups - 3 sets of 15 reps",
+        "Bench Press - 4 sets of 10 reps",
+        "Chest Flys - 3 sets of 12 reps",
+        "Incline Press - 3 sets of 10 reps",
+        "Cable Crossovers - 3 sets of 15 reps"
+    ],
+    "back": [
+        "Pull-Ups - 3 sets of 10 reps",
+        "Deadlifts - 3 sets of 8 reps",
+        "Barbell Rows - 3 sets of 12 reps",
+        "Lat Pulldowns - 4 sets of 10 reps",
+        "T-Bar Rows - 3 sets of 12 reps"
+    ],
+    "shoulders": [
+        "Shoulder Press - 3 sets of 10 reps",
+        "Lateral Raises - 3 sets of 15 reps",
+        "Front Raises - 3 sets of 12 reps",
+        "Arnold Press - 3 sets of 10 reps",
+        "Face Pulls - 3 sets of 15 reps"
+    ],
+    "core": [
+        "Plank - Hold for 1 minute (3 sets)",
+        "Russian Twists - 3 sets of 20 twists",
+        "Leg Raises - 3 sets of 12 reps",
+        "Bicycle Crunches - 3 sets of 15 reps per side",
+        "Mountain Climbers - 3 sets of 30 seconds"
+    ],
+    "cardio": [
+        "Running - 20 minutes",
+        "Cycling - 30 minutes",
+        "Jump Rope - 5 sets of 2 minutes",
+        "Burpees - 3 sets of 15 reps",
+        "Rowing Machine - 20 minutes"
+    ],
+    "full body": [
+        "Burpees - 3 sets of 15 reps",
+        "Deadlifts - 3 sets of 10 reps",
+        "Clean and Jerk - 3 sets of 8 reps",
+        "Kettlebell Swings - 3 sets of 15 reps",
+        "Push-Ups to Rows - 3 sets of 10 reps"
+    ],
+    "glutes": [
+        "Hip Thrusts - 4 sets of 12 reps",
+        "Glute Bridges - 3 sets of 15 reps",
+        "Sumo Deadlifts - 3 sets of 10 reps",
+        "Cable Kickbacks - 3 sets of 12 reps per leg",
+        "Donkey Kicks - 3 sets of 15 reps per leg"
+    ],
+    "calves": [
+        "Standing Calf Raises - 3 sets of 20 reps",
+        "Seated Calf Raises - 3 sets of 15 reps",
+        "Donkey Calf Raises - 3 sets of 12 reps",
+        "Jump Rope - 5 sets of 1 minute",
+        "Box Jumps - 3 sets of 10 reps"
+    ]
+}
