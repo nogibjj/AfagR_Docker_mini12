@@ -1,5 +1,7 @@
 # AfagR_Docker_week12
 
+[![Build and Push Docker Image](https://github.com/nogibjj/AfagR_Docker_mini12/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/AfagR_Docker_mini12/actions/workflows/CI.yml)
+
 I developed a containerized Flask application that generates workout plan based on a database of pre-defined workout plans. 
 
 ## Local Development
