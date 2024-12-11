@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Workout Planner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 70%;
+        }
+        input[type="submit"] {
+            padding: 10px;
+        }
+        .error {
+            color: red;
+        }
+        .exercises {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Sports Workout Planner App!</h1>
+        <form method="POST">
+            <input type="text" name="part" placeholder="Enter a body part (e.g., arms)" required>
+            <input type="submit" value="Get Workout Plan">
+        </form>
+
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+
+        {% if exercises %}
+        <h3>Workout Plan for {{ body_part | capitalize }}:</h3>
+        <ul class="exercises">
+            {% for exercise in exercises %}
+            <li>{{ exercise }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</body>
+</html>

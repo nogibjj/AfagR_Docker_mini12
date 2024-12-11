@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import json
 
 app = Flask(__name__)
@@ -8,9 +8,24 @@ with open("workout_data.json", "r") as f:
     workouts = json.load(f)
 
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def home():
-    return "Welcome to the Sports Workout Planner App!"
+    if request.method == "POST":
+        # Get the body part from the form
+        body_part = request.form.get("part", "").lower()
+
+        # Check if the body part exists in the workouts
+        if not body_part:
+            return render_template("index.html", error="Please specify a body part.")
+        
+        if body_part not in workouts:
+            return render_template("index.html", error=f"Sorry, we don't have a workout plan for '{body_part}'.")
+        
+        # Return the exercises for the body part
+        exercises = workouts[body_part]
+        return render_template("index.html", exercises=exercises, body_part=body_part)
+
+    return render_template("index.html")
 
 
 @app.route("/workout", methods=["GET"])

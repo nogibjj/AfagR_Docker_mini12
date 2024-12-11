@@ -31,15 +31,20 @@ python app.py
 
 5. Access & use the App
 
-5.1 Click the link `http://localhost:5001` to visit the application
+- 5.1 Click the link `http://localhost:5001` to visit the application
+![Image2](images\request.png)
+
+- 5.2 Welcome Page
+![Image2](images\welcome.png)
+
+- 5.3 Enter the target area and see the workout plan
+![Image](images\result.png)
 
 
 ## Dockerhub Image
 
 The application image is available on Docker Hub: 
-
-
-
+![Image](images\docker_image.png)
 
 
 
@@ -50,6 +55,8 @@ Run the tests using:
 ```bash
 python -m pytest test_app.py
 ```
+![Image](images\test.png)
+
 
 
 ## Continuous Integration
